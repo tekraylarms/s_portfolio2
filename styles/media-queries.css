@@ -1,0 +1,94 @@
+@media screen and (width<=600px) {
+    h1{
+        /* display: none; */
+        font-size: 2rem;
+     }
+     h3{
+        font-size: 1.6rem;
+     }
+     p{
+        /* display: none; */
+        font-size: 0.7rem;
+     }
+     span{
+        font-size: 2.5rem;
+     }
+     a{
+      font-size: 0.7rem;
+     }
+    .home-container{
+        margin-top: 65px;
+        flex-direction: column; 
+     } 
+     .profile{
+        width: 100%;
+        text-align: center;
+     }
+     .profile-pic{
+         margin-inline: auto;
+         width: 50%;
+     }
+     .profile-description{
+        width:100%;
+        /* margin-inline: auto; */
+     }
+     .main-footer p{
+       font-size: 0.4rem;
+    }  
+   
+}
+
+@media  screen and (width<= 400px) {
+   h1{
+      font-size: 1.4rem;
+   }
+   h3{
+      font-size: 1rem;
+   }
+   p{
+      font-size: 0.5rem;
+   }
+   span{
+      font-size: 2rem;
+   }
+   
+   .nav-list{
+      display: none;
+      /* position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      flex-direction: column; */
+   } 
+
+   #ham-menu{
+      /* display: initial; working */
+       display: block; 
+   }
+
+   .nav-list2{
+      flex-direction: column;
+      margin-top: 65px;
+      background-color: var(--color3);
+   }
+
+   .home-container{
+      margin-top: 65px;
+   }
+   
+   .profile-description p{
+      text-align: justify;
+   }
+   
+   .about-description p{
+        width: 100%;
+   }
+   .contact-section{
+       flex-direction: column;
+       gap: 4vh;
+   }
+
+   .main-footer p{
+      font-size: 0.3rem;
+   } 
+}
