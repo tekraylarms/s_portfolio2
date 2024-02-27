@@ -126,7 +126,7 @@ li{
 .home-container{
     /* margin-top: calc(var(--margin) + 5px); */
     padding: 20px;
-    margin-top: 13vh;
+    margin-top: 14vh;
     background-color: var(--color2);
     justify-content: space-around;
 }
