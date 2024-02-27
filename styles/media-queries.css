@@ -1,0 +1,23 @@
+@media screen and (width<=600px) {
+    h1{
+        /* display: none; */
+        font-size: 2rem;
+     }
+     p{
+        /* display: none; */
+        font-size: 0.7rem;
+     }
+     a{
+        font-size: 0.4rem;
+     }
+
+    .home-container{
+        flex-direction: column; 
+     } 
+
+     .profile-description{
+        width: 80vw;
+        /* margin-inline: auto; */
+     }
+   
+}
